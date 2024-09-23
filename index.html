@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books mini-app</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div id="banner-app">
+            <h1 class="heading">Evansuh books</h1>
+            <p>Books for fantasy</p>
+            <form id="search-books">
+                <input type="text" name="search" id="search" placeholder="search books...">
+            </form>
+            <a href="https://facebook.com">click me</a>
+        </div>
+    </header>
+    <div id="book-list">
+        <h2 class="title">Books to read</h2>
+        <ul>
+            <li>
+                <span class="name">Atomic Habits</span>
+                <span class="delete">Delete</span>
+            </li>
+            <li>
+                <span class="name">Rich Dad poor Dad</span>
+                <span class="delete">Delete</span>
+            </li>
+            <li>
+                <span class="name">Hack the world</span>
+                <span class="delete">Delete</span>
+            </li>
+            <li>
+                <span class="name">Walk tonight</span>
+                <span class="delete">Delete</span>
+            </li>
+        </ul>
+        <form action="" id="add-book">
+            <input type="checkbox" name="hide" id="us"/> 
+            <label for="us" >Hide all books</label><br>
+            <input type="text" name="add"  placeholder="Add a book...">
+            <button class="add">Add</button>
+
+        </form>
+    </div>
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+</html>
